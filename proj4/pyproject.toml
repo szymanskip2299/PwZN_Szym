@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "proj2"
+name = "proj4"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
@@ -7,11 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-rich = "^12.6.0"
-Pillow = "^9.2.0"
-numpy = "^1.23.4"
-numba = "^0.56.3"
-tqdm = "^4.64.1"
+requests = "^2.28.1"
+beautifulsoup4 = "^4.11.1"
 
 
 [build-system]

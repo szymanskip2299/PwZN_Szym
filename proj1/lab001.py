@@ -1,6 +1,6 @@
 
-# file_name="C:\\Users\\pawel\\Downloads\\Frankenstein.txt"
 
+#poetry run python .\lab001.py  C:\\Users\\pawel\\Downloads\\Frankenstein.txt --hist_size 5
 
 
 
@@ -25,7 +25,7 @@ if args.min_len:
     min_len = args.min_len
 
 
-with open(file_name) as f:
+with open(file_name,encoding="utf-8") as f:
     text = f.read()
 
 text = text.translate({ord(c):None for c in "?.!;,'"})#usuwam interpunkcje itd
