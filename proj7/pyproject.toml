@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "proj7"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sympy = "^1.11.1"
+numpy = "^1.24.1"
+matplotlib = "^3.6.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.19.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
